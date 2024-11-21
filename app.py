@@ -28,7 +28,7 @@ services = {
 }
 
 # Header for the chatbot
-st.header("✨Service Chatbot")
+st.header("✨ Easypaisa Service Chatbot")
 
 # Dropdown menu for selecting a service
 selected_option = st.sidebar.selectbox("Choose a service domain:", services.keys())
